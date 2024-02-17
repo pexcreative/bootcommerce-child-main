@@ -1,26 +1,39 @@
-/* quitando sidebar */
-body.single .col-md-4.col-xxl-3.mt-4.mt-md-0{display:none;}
-
-
-/* Personalizado COLORES */
-/* COLOR DE BACKGROUND DE PÁGINAS */
-#page,nav.breadcrumb{background-color:#EAF6F6!important;}
-
-/* COLOR PARA MENU PRINCIPAL */
-#nav-main{background-color:#FFC600;}
-#nav-main a.nav-link{font-weight:bold;color:#fff;}
-.offcanvas.offcanvas-end.show a.nav-link{color:#000!important;}
-#nav-main li.menu-item:hover{background-color: #ffa500ab;border-radius: 5px;}
-
-/* BOTONES PARA COMPRAR O CONSULTAR*/
-.botoncomprar a{
-	background-color: #FFC600!important;
-	color: #000!important;
-	font-weight: bold!important;
-	border: none!important;
-}
-.botoncomprar a:hover{background-color: #ffb100!important;}
-
-h1.product_title,body.single-product .price.display-3{text-align:center!important;}
-body.single-product .price.display-3{text-align: center;font-weight: bold;color: #165364!important;}
+/* quitando sidebar */
+body.single .col-md-4.col-xxl-3.mt-4.mt-md-0{display:none;}
+
+
+/* Personalizado COLORES */
+/* COLOR DE BACKGROUND DE PÁGINAS */
+#page,nav.breadcrumb{background-color:#EAF6F6!important;}
+
+/* COLOR PARA MENU PRINCIPAL */
+#nav-main, .botoncomprar a, .color{
+	background: rgb(98,0,180);
+	background: linear-gradient(180deg, rgba(98,0,180,1) 0%, rgba(118,0,173,1) 60%, rgba(147,0,162,1) 100%);
+}
+#nav-main a.nav-link{
+	font-weight:bold;
+	color:#fff;
+}
+.h1.logo{
+	font-family: 'Signika Negative',sans-serif;
+	color:#fff;
+	letter-spacing: 0.5px;
+	
+}
+
+.offcanvas.offcanvas-end.show a.nav-link{color:#000!important;}
+#nav-main li.menu-item:hover{background-color: rgb(98,0,180);border-radius: 5px;}
+
+/* BOTONES PARA COMPRAR O CONSULTAR*/
+.botoncomprar a{
+	background-color: #FFC600!important;
+	color: #fff!important;
+	font-weight: bold!important;
+	border: none!important;
+}
+.botoncomprar a:hover{background-color: rgb(98,0,180)!important;}
+
+h1.product_title,body.single-product .price.display-3{text-align:center!important;}
+body.single-product .price.display-3{text-align: center;font-weight: bold;color: #165364!important;}
 h1.product_title:hover{color:#165364;}
