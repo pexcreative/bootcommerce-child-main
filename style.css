@@ -4,7 +4,7 @@
  Author:       Pex Creative
  Author URI:   https://www.pexcreative.com
  Template:     bootscore-main
- Version:      1.2.0
+ Version:      1.7.0
  Text Domain:  bootscore
 */
 
@@ -17,3 +17,5 @@ All style editing is done via css/scss/_bscore_custom.scss
 /* EDITA EL ARCHIVO PERSONALIZADO.CSS */
 
 body.single-product .col-md-4.order-last{display:none!important;}
+
+.product-category .card img, .product.card img{width: unset!important;}
